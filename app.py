@@ -98,7 +98,7 @@ def main():
     # 2. 모델 및 세션 초기화
     try:
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash-latest",
+            model_name="gemini-1.5-flash",
             system_instruction=SYSTEM_PROMPT
         )
         initialize_session(model)
